@@ -175,6 +175,17 @@ nav .navlinks li a{
     transform: rotate(360deg);
 }
 
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+}
+
+.resume-container img{
+    width: 60vw;
+}
+
 /* Responsive design & displaying navbar for small screen */
 @media(max-width: 930px)
 {
@@ -239,5 +250,9 @@ nav .navlinks li a{
 
     .hero-text{
         padding: 40px 0px;
+    }
+
+    .resume-container img{
+        width: 80vw;
     }
 }
