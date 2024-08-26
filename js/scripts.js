@@ -14,3 +14,6 @@ var typed = new Typed(".input", {
     backSpeed: 55,
     loop: true
 })
+
+
+
